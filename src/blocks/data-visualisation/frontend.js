@@ -70,17 +70,6 @@ domReady( () => {
 			},
 		];
 
-		const component = () => (
-			<Chart
-				options={ options }
-				series={ series }
-				/* Set Chart Type here */
-				type={ chartType }
-				width={ 500 }
-				height={ 320 }
-			/>
-		);
-
 		// Render the component on top of the block
 		render(
 			<Chart
